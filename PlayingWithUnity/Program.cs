@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PlayingWithUnity.Implementation;
 using Microsoft.Practices.Unity;
+using PlayingWithUnity.Implementation;
 using PlayingWithUnity.Interface;
 
 namespace PlayingWithUnity
 {
-  class Program
+  internal class Program
   {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
       // Configure
       var container = new UnityContainer();
