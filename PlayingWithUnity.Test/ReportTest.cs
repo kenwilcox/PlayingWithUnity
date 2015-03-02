@@ -18,7 +18,7 @@ namespace PlayingWithUnity.Test
       var testData = new List<string> {"This", "Is", "Another", "Test"};
 
       fetcher.Setup(s => s.Fetch()).Returns(() => testData ?? null);
-      transformer.Setup(s => s.Transform(It.IsAny <IEnumerable<string>>())).Returns(It.IsAny<string>());
+      transformer.Setup(s => s.Transform(It.IsAny<IEnumerable<string>>())).Returns(It.IsAny<string>());
 
       var report = new Report(fetcher.Object, transformer.Object);
       report.Execute();

@@ -3,7 +3,7 @@ using PlayingWithUnity.Interface;
 
 namespace PlayingWithUnity.Implementation
 {
-  public class Report: IReport
+  public class Report : IReport
   {
     private readonly IDataFetcher _fetcher;
     private readonly ITransformer _transform;
