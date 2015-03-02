@@ -3,7 +3,7 @@ using PlayingWithUnity.Interface;
 
 namespace PlayingWithUnity.Implementation
 {
-  public class DataFetcher: IDataFetcher
+  public class DataFetcher : IDataFetcher
   {
     public IEnumerable<string> Fetch()
     {
