@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.Practices.Unity;
 using PlayingWithUnity.Implementation;
-using PlayingWithUnity.Interface;
 
 namespace PlayingWithUnity
 {
