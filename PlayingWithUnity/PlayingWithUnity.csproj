@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\Report.cs" />
+    <Compile Include="Implementation\SuperCoolDataFetcher.cs" />
     <Compile Include="Implementation\Transformer.cs" />
     <Compile Include="Interface\IDataFetcher.cs" />
     <Compile Include="Interface\IReport.cs" />

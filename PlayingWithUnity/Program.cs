@@ -11,7 +11,7 @@ namespace PlayingWithUnity
     {
       // Configure
       var container = new UnityContainer();
-      container.RegisterType(typeof (IDataFetcher), typeof (DataFetcher));
+      container.RegisterType(typeof (IDataFetcher), typeof (SuperCoolDataFetcher));
       container.RegisterType(typeof (ITransformer), typeof (Transformer));
 
       // Run it
