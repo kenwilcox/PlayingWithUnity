@@ -9,13 +9,10 @@ namespace PlayingWithUnity
   {
     private static void Main(string[] args)
     {
-      // Configure
-      var container = new UnityContainer();
-      container.RegisterType(typeof (IDataFetcher), typeof (SuperCoolDataFetcher));
-      container.RegisterType(typeof (ITransformer), typeof (Transformer));
+      Bootstrapper.Initialize();
 
       // Run it
-      var obj = container.Resolve<Report>();
+      var obj = Bootstrapper.Container.Resolve<Report>();
       obj.Execute();
 
       Console.ReadKey();

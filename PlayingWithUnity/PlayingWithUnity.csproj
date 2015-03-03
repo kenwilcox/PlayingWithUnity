@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
     <Compile Include="Implementation\Report.cs" />
     <Compile Include="Implementation\SuperCoolDataFetcher.cs" />
     <Compile Include="Implementation\Transformer.cs" />
